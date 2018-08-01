@@ -7,6 +7,7 @@
       <div class="nav-item"><router-link to="sellers">商家</router-link></div>
     </div>
     <div class="content">
+      <router-view></router-view>
     </div>
     <div class="footer">
     </div>
@@ -15,6 +16,7 @@
 
 <script>
 import Header from './components/header'
+
 import axios from 'axios'
 export default {
   name: 'App',
